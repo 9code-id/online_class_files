@@ -1,0 +1,16 @@
+import 'package:freezed_annotation/freezed_annotation.dart';
+
+part 'product_category.freezed.dart';
+part 'product_category.g.dart';
+
+@freezed
+class ProductCategory with _$ProductCategory {
+  factory ProductCategory({
+    String? id,
+    @JsonKey(name: 'product_category_name') String? productCategoryName,
+    @JsonKey(name: 'owner_id') String? ownerId,
+  }) = _ProductCategory;
+
+  factory ProductCategory.fromJson(Map<String, dynamic> json) =>
+      _$ProductCategoryFromJson(json);
+}

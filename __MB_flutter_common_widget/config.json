@@ -1,0 +1,27 @@
+{
+    "modules": [
+        "dashboard",
+        "scaffold_exercise",
+        "container_exercise",
+        "button_exercise",
+        "icon_exercise",
+        "image_exercise",
+        "circle_avatar_exercise",
+        "list_tile_exercise",
+        "card_exercise",
+        "row_exercise",
+        "column_exercise",
+        "wrap_exercise",
+        "stack_exercise",
+        "grid_view_exercise",
+        "list_view_exercise",
+        "staggered_grid_view_exercise",
+        "chart_exercise",
+        "map_exercise"
+    ],
+    "module_directory_name": "module",
+    "experimental_mode": false,
+    "learning_mode": true,
+    "unfreezed": true,
+    "use_cubit": false
+}
