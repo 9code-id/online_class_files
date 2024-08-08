@@ -1,2 +1,0 @@
-calculateTax() {}
-calculateBestEmployee() {}
